@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    font-weight: 400;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    top: 9px;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.navbar ul li a img {
+    width: 11px;
+}
+
+.navbar ul li img {
+    position: relative;
+    top: -3px;
+    width: 30px;
+}
+
+.download-cont {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    width: 50vw;
+    margin: auto;
+}
+
+.down {
+    padding: 15px;
+    background-color: rgb(251, 248, 248);
+}
+
+.lang1 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}
+
+.lang2 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    letter-spacing: 0.5px;
+}
+
+.down-btn {
+    justify-content: space-around;
+    display: flex;
+    column-gap: 7px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.down-btn a {
+    display: flex;
+    width: 140px;
+    height: 38px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    background-color: rgb(29, 199, 128);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-btn a:first-child {
+    background-color: rgb(9, 166, 189);
+}
+
+.down-btn a:hover {
+    background-color: rgb(29, 182, 118);
+}
+
+.down-btn a:first-child:hover {
+    background-color: rgb(15, 160, 183);
+}
