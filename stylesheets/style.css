@@ -100,3 +100,15 @@
 .down-btn a:first-child:hover {
     background-color: rgb(15, 160, 183);
 }
+.down-ultraedit-heading{
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+}
+.down-ultraedit-heading .one span{
+    font-weight: 700;
+}
+.down-ultraedit-heading .two{
+    font-size: 24px;
+    line-height: 1px;
+}
