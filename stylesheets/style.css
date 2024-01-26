@@ -47,6 +47,7 @@
     column-gap: 20px;
     width: 50vw;
     margin: auto;
+    justify-content: center;
 }
 
 .down {
